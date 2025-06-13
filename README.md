@@ -1,6 +1,15 @@
 # Expense management app from a budget
-## Managed by Context API
-### src/reducers/budget-reducer.ts
+An app that lists expenses by category and displays a circle chart comparing them to your allocated monthly budget, changing from blue to red when less than 80% of your budget is left.
+
+It also allows you to edit the characteristics of saved expenses or delete them by dragging them to the right or left.
+## Technologies
+React + Typescript + TailwindCSS and different libraries that are listed in the development commits
+## Deploy on Netlify
+Website hosted on netlify.app server
+[presupuesto-contextapi](https://presupuesto-contetextapi.netlify.app/)
+## Developer Notes
+### Managed by Context API
+#### src/reducers/budget-reducer.ts
 ```
 import { v4 as uuidv4 } from 'uuid'
 import type { Category, DraftExpense, Expense } from "../types"
