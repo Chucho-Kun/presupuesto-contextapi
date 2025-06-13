@@ -42,7 +42,7 @@ export default function ExpenseForm() {
             setError('Todos los campos son obligatorios')
             return
         }
-        dispatch( { type: 'add-budget' , payload: { expense } } )
+        dispatch( { type: 'add-expense' , payload: { expense } } )
     }
 
   return (
@@ -122,7 +122,7 @@ export default function ExpenseForm() {
         <input 
             type="submit" 
             className="bg-blue-600 cursor-pointer w-full p-2 text-white uppercase font-bold rounded-lg"
-            value="REGISTRAR GASTO"
+            value={ 'Registrar Gasto' }
         />
     </form>
   )

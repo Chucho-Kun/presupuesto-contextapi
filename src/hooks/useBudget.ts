@@ -5,7 +5,7 @@ import { BudgetContext } from "../context/BudgetContext"
 export const useBudget = () => {
     const context = useContext(BudgetContext)
     if( !context ){
-        throw new Error('use Budget must be used within a BudgetPropvider')
-    }
+        throw new Error('use Budget must be used within a BudgetProvider')
+    }  
     return context
 }
