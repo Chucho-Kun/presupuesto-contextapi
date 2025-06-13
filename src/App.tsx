@@ -24,7 +24,12 @@ function App() {
         { isValidBudget ? <BudgetTracker />  : <BudgetForm /> }
      </div>
 
-    <ExpenseModal />
+    { isValidBudget && (
+      <main className="max-w-3xl mx-auto py-10">
+        
+        <ExpenseModal />
+      </main>
+    ) }
 
     </>
   )
