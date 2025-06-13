@@ -16,7 +16,7 @@ const handleChange = ( e : React.ChangeEvent<HTMLSelectElement>) => {
                 <label htmlFor="category">Filtrar Gastos</label>
                     <select 
                         id="category"
-                        className="bg-slate-100 p-3 flex-1 rounded-lg"
+                        className="bg-slate-100 p-3 flex-1 rounded-lg cursor-pointer"
                         onChange={handleChange}
                     >
                         <option value="">-- Seleccione una categoria</option>

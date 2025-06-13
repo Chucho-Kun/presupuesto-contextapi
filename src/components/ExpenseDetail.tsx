@@ -39,7 +39,9 @@ export default function ExpenseDetail({ expense } : ExpenseDetailProps) {
     )
 
   return (
-    <SwipeableList>
+    <SwipeableList
+        className="cursor-grab"
+    >
         <SwipeableListItem
             maxSwipe={30}
             leadingActions={ leadingActions() }

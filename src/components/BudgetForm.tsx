@@ -22,8 +22,8 @@ export default function BudgetForm() {
     return (
     <form className="space-y-5" onSubmit={ handleSubmit }>
         <div className="flex flex-col space-y-5">
-            <label htmlFor="budget" className="text-4xl text-blue-600 font-bold text-center">
-                Definir presupuesto
+            <label htmlFor="budget" className="text-2xl uppercase text-blue-600 font-bold text-center">
+                Definir presupuesto mensual
             </label>
             <input 
                 id="budget"

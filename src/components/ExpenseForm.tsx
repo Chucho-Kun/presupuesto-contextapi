@@ -77,7 +77,7 @@ export default function ExpenseForm() {
                 <label 
                     htmlFor="expenseName"
                     className="text-xl"
-                >Nombre Gasto:</label>
+                >Nombre:</label>
                 <input 
                     type="text"
                     id="expenseName"
@@ -93,7 +93,7 @@ export default function ExpenseForm() {
                 <label 
                     htmlFor="amount"
                     className="text-xl"
-                >Cantidad:</label>
+                >Monto:</label>
                 <input 
                     type="text"
                     id="amount"
@@ -109,7 +109,7 @@ export default function ExpenseForm() {
                 <label 
                     htmlFor="category"
                     className="text-xl"
-                >Categorias:</label>
+                >Categoría:</label>
                 <select 
                     id="category"
                     className="bg-slate-100 p-2"
@@ -117,7 +117,7 @@ export default function ExpenseForm() {
                     value={expense.category}
                     onChange={ handleChange }
                 >
-                    <option value="">-- Seleccione:</option>
+                    <option value="">-- Seleccione una categoría:</option>
                     { categories.map( category => (
                         <option 
                             key={category.id}
@@ -131,7 +131,7 @@ export default function ExpenseForm() {
                 <label 
                     htmlFor="amount"
                     className="text-xl"
-                >Fecha Gasto:</label>
+                >Fecha:</label>
                 <DatePicker 
                     className="bg-slate-100 p-2 border-0"
                     value={expense.date}

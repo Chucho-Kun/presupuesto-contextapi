@@ -12,6 +12,8 @@ const { state , dispatch } = useBudget()
     <>
       <div className="fixed right-5 bottom-5 flex items-center justify-center">
         <button
+          className='cursor-pointer'
+          title='Agregar Gasto'
           type="button"
           onClick={ () => dispatch({ type: 'show-modal'}) }
         >
