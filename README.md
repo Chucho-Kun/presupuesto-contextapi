@@ -2,6 +2,8 @@
 An app that lists expenses by category and displays a circle chart comparing them to your allocated monthly budget, changing from blue to red when less than 80% of your budget is left.
 
 It also allows you to edit the characteristics of saved expenses or delete them by dragging them to the right or left.
+
+![Screenshot](src/assets/screenshot.png)
 ## Technologies
 React + Typescript + TailwindCSS and different libraries that are listed in the development commits
 ## Deploy on Netlify
