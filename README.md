@@ -3,6 +3,11 @@ An app that lists expenses by category and displays a circle chart comparing the
 
 It also allows you to edit the characteristics of saved expenses or delete them by dragging them to the right or left.
 
+## 🚀 Tech Stack
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
 ![Screenshot](src/assets/screenshot.png)
 ## Technologies
 React + Typescript + TailwindCSS and different libraries that are listed in the development commits
